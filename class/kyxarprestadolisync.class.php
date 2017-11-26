@@ -2,11 +2,8 @@
 
 if (!class_exists('TObjetStd'))
 {
-	/**
-	 * Needed if $form->showLinkedObjectBlock() is call
-	 */
-	//define('INC_FROM_DOLIBARR', true);
-	//require_once dirname(__FILE__).'/../config.php';
+	define('INC_FROM_DOLIBARR', true);
+	require_once dirname(__FILE__).'/../config.php';
 }
 
 
@@ -52,7 +49,7 @@ class TKyxarPrestaDoliSync extends TObjetStd
 		$this->generic->table_element = $this->get_table();
 		$this->generic->element = 'kyxarprestadolisync';
 		
-		$this->status = self::STATUS_DRAFT;
+		$this->status = self::STATUS_TOSYNC;
 		$this->entity = $conf->entity;
 	}
 

@@ -6,6 +6,9 @@ ATMAbout = Ce module a été développé par <a href="http://www.atm-consulting.
 KyxarPrestaDoliSyncSetup = Configuration du module Kyxar Prestashop / Dolibarr Synchro
 KyxarPrestaDoliSyncAbout = A propos du module Kyxar Prestashop / Dolibarr Synchro
 
+# CONF
+ParamKPDS_PRESTASHOP_URL=URL du module Prestashop
+
 # STATUS
 KyxarPrestaDoliSyncStatusToSync=À synchroniser
 KyxarPrestaDoliSyncStatusOk=Synchronisé

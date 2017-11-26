@@ -10,17 +10,9 @@ if(!defined('INC_FROM_DOLIBARR')) {
 
 }
 
-
-/* uncomment
-
-
 dol_include_once('/kyxarprestadolisync/class/kyxarprestadolisync.class.php');
 
 $PDOdb=new TPDOdb;
 
 $o=new TKyxarPrestaDoliSync;
 $o->init_db_by_vars($PDOdb);
-
-$o=new TKyxarPrestaDoliSyncChild;
-$o->init_db_by_vars($PDOdb);
-*/
